@@ -28,12 +28,17 @@ export const profile = {
   { name: "Spring Boot", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" },
   { name: "Docker / Docker Compose", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
   { name: "PostgreSQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
+  {name:"MySQL", icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"},
   { name: "JPA / Hibernate", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-original.svg" },
   { name: "JDBC", icon: "https://cdn-icons-png.flaticon.com/512/4248/4248443.png" },
   { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
   { name: "HTML", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
   { name: "CSS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
   { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+  {name:"Linux", icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"},
+  {name:"Nginx", icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg"},
+  {name:"Swagger", icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swagger/swagger-original.svg"},
+  {name:"Postman", icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"}
 ],
 
   projects: [

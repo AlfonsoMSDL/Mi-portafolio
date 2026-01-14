@@ -1,5 +1,6 @@
 import voluntariappImage from "../assets/voluntariAppImage.png";
 import rolandGarrosImage from "../assets/rolandGarrosImage.png";
+import hotelSwaggerImage from "../assets/hotelSwaggerImage.png";
 export const profile = {
   name: "Alfonso Salazar",
   role: "Desarrollador Backend Java y Spring Boot",
@@ -36,6 +37,12 @@ export const profile = {
 ],
 
   projects: [
+    {
+      name: "Sistema de Gestión Hotelera (En desarrollo)",
+      description: "Backend diseñado a partir de un análisis del dominio del negocio hotelero, incluyendo modelado conceptual, lógico y diagrama de clases. Implementado con Java y Spring Boot, utilizando PostgreSQL y Docker Compose para el entorno de ejecución. Funcionalidades actuales: autenticación, gestión de habitaciones y documentación de APIs con Swagger.En desarrollo: módulo de reservas, integración de frontend en React, pasarela de pagos y despliegue en AWS.",
+      image: hotelSwaggerImage,
+      github: "https://github.com/AlfonsoMSDL/Proyecto-hotel-backend",
+    },
     {
       name: "VoluntariApp",
       description: "VoluntariApp es un sistema de gestión de voluntariado construido con microservicios en Java, Tomcat y PostgreSQL. Implementé cerca del 70% del backend, la arquitectura con Docker Compose y el enrutamiento con Nginx. Permite a administradores, voluntarios y organizaciones gestionar proyectos, inscripciones y participaciones.",

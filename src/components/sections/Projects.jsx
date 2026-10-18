@@ -42,7 +42,11 @@ const Projects = () => {
                     <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors">
                       <Github size={24} />
                     </a>
-
+                    {project.demo && (
+                      <a href={project.demo} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors">
+                        <ExternalLink size={24} />
+                      </a>
+                    )}
                   </div>
                 </div>
               </Card>

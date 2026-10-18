@@ -30,9 +30,14 @@ const Header = ({ darkMode, setDarkMode }) => {
       }`}
     >
       <nav className="container mx-auto px-6 py-3 flex justify-between items-center">
-        <div className="text-xl font-extrabold tracking-tight text-gray-800 dark:text-white">
+        <Link
+          to="hero"
+          smooth={true}
+          duration={500}
+          className="cursor-pointer text-xl font-extrabold tracking-tight text-gray-800 dark:text-white"
+        >
           {profile.name}
-        </div>
+        </Link>
         <div className="hidden md:flex items-center space-x-6">
           {navLinks.map((link) => (
             <Link
@@ -42,6 +47,7 @@ const Header = ({ darkMode, setDarkMode }) => {
               smooth={true}
               offset={-70}
               duration={500}
+              activeClass="!text-brand-500 dark:!text-brand-300 font-semibold"
               className="cursor-pointer text-gray-600 dark:text-gray-300 hover:text-brand-500 dark:hover:text-brand-300 transition-colors"
             >
               {link.label}
@@ -71,6 +77,7 @@ const Header = ({ darkMode, setDarkMode }) => {
                 smooth={true}
                 offset={-70}
                 duration={500}
+                activeClass="!text-brand-500 dark:!text-brand-300"
                 className="cursor-pointer text-gray-700 dark:text-gray-200 hover:text-brand-500 dark:hover:text-brand-300 transition-colors text-base font-medium"
                 onClick={() => setIsOpen(false)}
               >

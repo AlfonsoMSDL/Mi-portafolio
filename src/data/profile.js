@@ -5,7 +5,7 @@ export const profile = {
   name: "Alfonso Salazar",
   role: "Desarrollador Backend Java y Spring Boot",
   photo: "https://via.placeholder.com/150",
-  about: "Desarrollador backend especializado en el ecosistema de Java, con experiencia en la construcción de aplicaciones robustas usando Spring Boot, Servlets y arquitectura basada en microservicios. Manejo contenedorización con Docker, despliegues con Docker Compose y persistencia con PostgreSQL y JPA. Disfruto crear soluciones eficientes, bien estructuradas y escalables, integrando buenas prácticas de software y bases sólidas en ingeniería.",
+  about: "Desarrollador backend especializado en el ecosistema de Java, con experiencia en la construcción de aplicaciones robustas usando Spring Boot, Spring Security, Servlets y arquitectura basada en microservicios. Manejo la contenerización con Docker, la orquestación con Docker Compose y la persistencia con PostgreSQL y JPA. He llevado un proyecto de principio a fin: desde el modelado del dominio y la API con autenticación JWT, hasta el frontend en React y el despliegue en la nube con AWS y Vercel. Disfruto crear soluciones eficientes, bien estructuradas y escalables, integrando buenas prácticas de software y bases sólidas en ingeniería.",
   education: [
     {
       institution: "Universidad del Magdalena",
@@ -25,7 +25,7 @@ export const profile = {
   ],
   skills: [
   { name: "Java", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
-  { name: "Spring Boot", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" },
+  { name: "Spring Boot / Security", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" },
   { name: "Docker / Docker Compose", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
   { name: "PostgreSQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
   {name:"MySQL", icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"},
@@ -35,6 +35,9 @@ export const profile = {
   { name: "HTML", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
   { name: "CSS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
   { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+  { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+  { name: "Maven", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" },
+  { name: "AWS (EC2 / RDS)", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" },
   {name:"Linux", icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"},
   {name:"Nginx", icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg"},
   {name:"Swagger", icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swagger/swagger-original.svg"},
@@ -44,7 +47,7 @@ export const profile = {
   projects: [
     {
       name: "Verdant Hotel – Sistema de Gestión de Reservas Hoteleras",
-      description: "Sistema de reservas para un hotel que construí de principio a fin. Empecé modelando el dominio (modelo conceptual, lógico y diagrama de clases) y luego desarrollé el backend en Java 21 y Spring Boot 4, con arquitectura en capas, autenticación JWT, roles y validación de reservas cruzadas. Hice el frontend en React, con catálogo, reserva con calendario y panel de administración. Lo contenericé con Docker Compose y lo desplegué en la nube: frontend en Vercel, backend en AWS EC2 y PostgreSQL en AWS RDS.",
+      description: "Sistema de reservas para un hotel que construí de principio a fin. Modelé el dominio (modelo conceptual, lógico y diagrama de clases) y desarrollé una API REST en Java 21 y Spring Boot 4 con arquitectura en capas, autenticación JWT con Spring Security, roles y reglas de negocio validadas en el servidor: reservas sin cruces de fechas, check-in/check-out e historial de estados. El frontend en React ofrece catálogo con filtros, reserva con calendario que bloquea fechas ocupadas, modo claro/oscuro y panel de administración. Lo contenericé con Docker Compose y Nginx, y lo desplegué en la nube: frontend en Vercel, backend en AWS EC2 y PostgreSQL en AWS RDS.",
       image: hotelTerminadoImage,
       github: "https://github.com/AlfonsoMSDL/Proyecto-hotel",
       demo: "https://proyecto-hotel-beta.vercel.app/",

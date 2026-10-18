@@ -47,7 +47,7 @@ export const profile = {
       description: "Sistema fullstack de reservas para un hotel, diseñado desde el análisis del dominio: modelo conceptual, modelo lógico y diagrama de clases antes de escribir código. El backend, en Java 21 y Spring Boot 4 con arquitectura en capas, incluye autenticación con JWT, roles, validación de reservas cruzadas e historial inmutable de estados. El frontend, en React con modo claro/oscuro, ofrece catálogo con filtros, reserva con calendario y un panel de administración con check-in y check-out. Contenerizado con Docker Compose y desplegado en la nube: frontend en Vercel, backend en AWS EC2 y PostgreSQL en AWS RDS.",
       image: hotelTerminadoImage,
       github: "https://github.com/AlfonsoMSDL/Proyecto-hotel",
-      demo: "https://TU-URL-DE-VERCEL.vercel.app",
+      demo: "https://proyecto-hotel-beta.vercel.app/",
     },
     {
       name: "VoluntariApp",

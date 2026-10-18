@@ -1,6 +1,6 @@
 import voluntariappImage from "../assets/voluntariAppImage.png";
 import rolandGarrosImage from "../assets/rolandGarrosImage.png";
-import hotelSwaggerImage from "../assets/hotelSwaggerImage.png";
+import hotelTerminadoImage from "../assets/hotelTerminadoImage.png";
 export const profile = {
   name: "Alfonso Salazar",
   role: "Desarrollador Backend Java y Spring Boot",
@@ -43,10 +43,10 @@ export const profile = {
 
   projects: [
     {
-      name: "Sistema de Gestión Hotelera (En desarrollo)",
-      description: "Backend diseñado a partir de un análisis del dominio del negocio hotelero, incluyendo modelado conceptual, lógico y diagrama de clases. Implementado con Java y Spring Boot, utilizando PostgreSQL y Docker Compose para el entorno de ejecución. Funcionalidades actuales: autenticación, gestión de habitaciones y documentación de APIs con Swagger.En desarrollo: módulo de reservas, integración de frontend en React, pasarela de pagos y despliegue en AWS.",
-      image: hotelSwaggerImage,
-      github: "https://github.com/AlfonsoMSDL/Proyecto-hotel-backend",
+      name: "Verdant Hotel – Sistema de Gestión de Reservas Hoteleras",
+      description: "Sistema fullstack de reservas para un hotel, diseñado desde el análisis del dominio: modelo conceptual, modelo lógico y diagrama de clases antes de escribir código. El backend, en Java 21 y Spring Boot 4 con arquitectura en capas, incluye autenticación con JWT, roles, validación de reservas cruzadas e historial inmutable de estados. El frontend, en React con modo claro/oscuro, ofrece catálogo con filtros, reserva con calendario y un panel de administración con check-in y check-out. Contenerizado con Docker Compose y desplegado en la nube: frontend en Vercel, backend en AWS EC2 y PostgreSQL en AWS RDS.",
+      image: hotelTerminadoImage,
+      github: "https://github.com/AlfonsoMSDL/Proyecto-hotel",
     },
     {
       name: "VoluntariApp",

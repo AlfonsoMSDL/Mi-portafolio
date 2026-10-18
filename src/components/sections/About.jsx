@@ -1,12 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { profile } from '../../data/profile';
-import fotoAlfonso from "../../assets/fotoAlfonso.png";
+import fotoAlfonso from "../../assets/fotoAlfonso.webp";
 
 
 const About = () => {
   return (
-    <section id="about" className="py-20 lg:py-32">
+    <section id="about" className="py-20 lg:py-28 bg-gray-50 dark:bg-gray-800">
       <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -19,7 +19,9 @@ const About = () => {
             <img
               src={fotoAlfonso}
               alt={profile.name}
-              className="rounded-full w-48 h-48 md:w-64 md:h-64 object-cover border-4 border-blue-500 shadow-lg"
+              width={512}
+              height={512}
+              className="rounded-full w-48 h-48 md:w-64 md:h-64 object-cover border-4 border-brand-500 shadow-lg"
             />
           </div>
           <div className="md:w-2/3 text-center md:text-left">

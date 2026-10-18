@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from './components/Layout';
+import Hero from './components/sections/Hero';
 import About from './components/sections/About';
 import Education from './components/sections/Education';
 import Skills from './components/sections/Skills';
@@ -9,6 +10,7 @@ import Contact from './components/sections/Contact';
 function App() {
   return (
     <Layout>
+      <Hero />
       <About />
       <Education />
       <Skills />

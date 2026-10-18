@@ -2,10 +2,23 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Currículum Online Interactivo de Alfonso Salazar. Un portafolio web moderno y profesional." />
+    <meta name="theme-color" content="#3b82f6" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_CO" />
+    <meta property="og:title" content="Alfonso Salazar | Desarrollador Backend Java y Spring Boot" />
+    <meta property="og:description" content="Portafolio de Alfonso Salazar: APIs REST con Java y Spring Boot, bases de datos y despliegue en la nube." />
     <title>Mi portafolio | Alfonso Salazar</title>
+    <script>
+      // Aplica el tema antes del primer render para evitar un destello en modo oscuro (misma lógica que Layout.jsx)
+      try {
+        var stored = localStorage.getItem('darkMode');
+        var dark = stored !== null ? stored === 'true' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (dark) document.documentElement.classList.add('dark');
+      } catch (e) {}
+    </script>
   </head>
   <body class="antialiased">
     <div id="root"></div>

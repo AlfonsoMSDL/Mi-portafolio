@@ -12,10 +12,9 @@ Bienvenido a este proyecto de portafolio, una aplicación web moderna construida
 
 ## 🛠️ Tecnologías
 
-- React 18
-- Vite 4
+- React 19
+- Vite 7
 - Tailwind CSS 3
-- React Icons
-- React Router DOM
+- Lucide React (íconos)
+- React Scroll (navegación entre secciones)
 - Framer Motion (para animaciones)
-- React Intersection Observer

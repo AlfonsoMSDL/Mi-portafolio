@@ -23,7 +23,6 @@ const Contact = () => {
           <Button href={`mailto:${profile.contact.email}`}>
             <Mail className="mr-2" /> Enviar un correo
           </Button>
-          <p className="mt-4 text-sm text-gray-500 dark:text-gray-400 break-all">{profile.contact.email}</p>
         </motion.div>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <Button href={profile.contact.linkedin} target="_blank" rel="noopener noreferrer" variant="outline" size="sm">

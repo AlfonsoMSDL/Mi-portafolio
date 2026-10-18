@@ -44,7 +44,7 @@ export const profile = {
   projects: [
     {
       name: "Verdant Hotel – Sistema de Gestión de Reservas Hoteleras",
-      description: "Sistema fullstack de reservas para un hotel, diseñado desde el análisis del dominio: modelo conceptual, modelo lógico y diagrama de clases antes de escribir código. El backend, en Java 21 y Spring Boot 4 con arquitectura en capas, incluye autenticación con JWT, roles, validación de reservas cruzadas e historial inmutable de estados. El frontend, en React con modo claro/oscuro, ofrece catálogo con filtros, reserva con calendario y un panel de administración con check-in y check-out. Contenerizado con Docker Compose y desplegado en la nube: frontend en Vercel, backend en AWS EC2 y PostgreSQL en AWS RDS.",
+      description: "Sistema de reservas para un hotel que construí de principio a fin. Empecé modelando el dominio (modelo conceptual, lógico y diagrama de clases) y luego desarrollé el backend en Java 21 y Spring Boot 4, con arquitectura en capas, autenticación JWT, roles y validación de reservas cruzadas. Hice el frontend en React, con catálogo, reserva con calendario y panel de administración. Lo contenericé con Docker Compose y lo desplegué en la nube: frontend en Vercel, backend en AWS EC2 y PostgreSQL en AWS RDS.",
       image: hotelTerminadoImage,
       github: "https://github.com/AlfonsoMSDL/Proyecto-hotel",
       demo: "https://proyecto-hotel-beta.vercel.app/",

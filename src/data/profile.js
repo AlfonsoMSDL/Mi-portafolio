@@ -78,7 +78,7 @@ export const profile = {
     }
   ],
   contact: {
-    email: "alfonsomanuelsalazarldeleon49@gmail.com",
+    email: "alfonsomanuelsalazardeleon49@gmail.com",
     linkedin: "https://www.linkedin.com/in/alfonso-salazar-de-le%C3%B3n-6b52502a5/",
     github: "https://github.com/AlfonsoMSDL"
   }

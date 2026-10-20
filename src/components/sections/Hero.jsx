@@ -1,8 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
-import { Github, Linkedin } from 'lucide-react';
+import { Github, Linkedin, Download } from 'lucide-react';
 import { profile } from '../../data/profile';
+import Button from '../ui/Button';
 import { buttonClass } from '../ui/buttonStyles';
 
 const Hero = () => {
@@ -42,6 +43,9 @@ const Hero = () => {
             <Link to="contact" smooth={true} offset={-70} duration={500} className={buttonClass({ variant: 'outline' })}>
               Contacto
             </Link>
+            <Button href={profile.cv} download="CV-Alfonso-Salazar.pdf" variant="outline">
+              <Download size={18} className="mr-2" /> Descargar CV
+            </Button>
           </div>
 
           <div className="mt-8 flex justify-center space-x-5">

@@ -8,7 +8,7 @@ export const profile = {
   photo: "https://via.placeholder.com/150",
   // El PDF vive en public/, así que se sirve con esta ruta fija
   cv: "/CV-Alfonso-Salazar.pdf",
-  about: "Desarrollador backend especializado en el ecosistema de Java, con experiencia en la construcción de aplicaciones robustas usando Spring Boot, Spring Security, Servlets y arquitectura basada en microservicios. Manejo la contenerización con Docker, la orquestación con Docker Compose y la persistencia con PostgreSQL y JPA. He llevado un proyecto de principio a fin: desde el modelado del dominio y la API con autenticación JWT, hasta un frontend básico en React y el despliegue en la nube con AWS y Vercel. Disfruto crear soluciones eficientes, bien estructuradas y escalables, integrando buenas prácticas de software y bases sólidas en ingeniería.",
+  about: "Desarrollador backend enfocado en el ecosistema de Java, con experiencia en la construcción de aplicaciones robustas usando Spring Boot, Spring Security y arquitectura basada en microservicios. Manejo la contenerización con Docker, la orquestación con Docker Compose y la persistencia con PostgreSQL y JPA. He llevado un proyecto de principio a fin: desde el modelado del dominio y la API con autenticación JWT, hasta un frontend básico en React y el despliegue en la nube con AWS y Vercel. Busco mi primera oportunidad profesional como desarrollador backend Java.",
   education: [
     {
       institution: "Universidad del Magdalena",

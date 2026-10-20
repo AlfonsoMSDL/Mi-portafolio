@@ -28,6 +28,7 @@ export const profile = {
   skills: [
     { category: "Backend", name: "Java", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
     { category: "Backend", name: "Spring Boot / Security", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" },
+    { category: "Backend", name: "OAuth 2 / OpenID Connect con Keycloak (básico)", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oauth/oauth-original.svg" },
     { category: "Backend", name: "JPA / Hibernate", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-original.svg" },
     { category: "Backend", name: "JDBC", icon: "https://cdn-icons-png.flaticon.com/512/4248/4248443.png" },
     { category: "Backend", name: "Maven", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" },
